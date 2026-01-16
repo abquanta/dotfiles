@@ -1,0 +1,17 @@
+# OS Generated (Mac/Linux)
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Vim/Editor Swaps & Backups
+*.swp
+*.swo
+*~
+.vscode/
+
+# Security (Block accidental commits of secrets)
+.env
+.netrc
+.ssh/
+*_history

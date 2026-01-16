@@ -1,0 +1,10 @@
+# Personal quality-of-life additions
+
+alias ll='ls -lah'
+alias gs='git status'
+
+# Starship prompt
+if command -v starship >/dev/null 2>&1; then
+  eval "$(starship init bash)"
+fi
+
